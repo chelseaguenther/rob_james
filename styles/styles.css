@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* css reset */
+
+/* Eric Meyer css reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end Eric Meyer css reset */
+
+/*body styles*/
+body {
+	background: url(../images/background_flames.jpg) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+}
+/*end of body styles*/
+
+/*wrapper styles*/
+.wrapper {
+	margin: 0 auto;
+	width: 960px;	
+	position: relative;
+}
+/*end of wrapper styles*/
+
+/*header styles*/
+header {
+}
+
+hgroup {
+	position: absolute;
+	top: 20px;
+	left: 350px;
+	text-align: center;	
+}
+
+hgroup h1 {
+	color: #fff;
+	font-size: 60px;
+}
+
+hgroup h2 {
+	color: #fff;	
+	font-size: 18px;
+}
+/*end of header styles*/
+
+/*navigation styles*/
+nav {
+	background-image: url(../images/nav-slice.jpg);
+	background-repeat: repeat;
+	height: 70px;
+	width: 960px;
+	position: absolute;
+	top: 110px;
+	left: 0;		
+}
+nav ul li {
+	float: left;
+	margin-left: 120px;
+	line-height: 70px;
+}
+
+nav ul li:first-child {
+	margin-left: 30px;	
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;	
+}
+/*end of navigation styles*/
+
+/*slider styles*/
+box {
+	background-color: transparent;
+	border: 2px solid #000;
+	padding: 25px;	
+	margin: 20px auto;
+}
+
+.box_01 {
+	height: 500px;
+	width: 700px;	
+	position: absolute;
+	top: 190px;
+	left: 125px;
+}
+
+button {
+	margin-top: 20px;
+	margin-right: 6px;	
+	background-color: #fff;
+}
+/*end of slider styles*/
+
+/*album styles*/
+.album_slightly {
+	position: absolute;
+	top: 700px;
+	left: 50px;	
+}
+
+.album_solow {
+	position: absolute;
+	top: 700px;
+	left: 380px;	
+}
+
+.album_unknown {
+	position: absolute;
+	top: 700px;
+	left: 710px;
+	width: 200px;
+	height: 200px;
+	background-color: #30F;	
+}
+
+.album_unknown p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+}
+/*end of album styles*/
+
+/*footer styles*/
+.footer_nav {
+	background-image: url(../images/nav-slice.jpg);
+	background-repeat: repeat;
+	height: 50px;
+	width: 700px;
+	position: absolute;
+	top: 1000px;
+	left: 130px;	
+}
+.footer_nav ul li {
+	float: left;
+	margin-left: 80px;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+
+.footer_nav ul li:first-child {
+	margin-left: 30px;	
+}
+
+.footer_nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;	
+}
+/*end of footer styles*/
